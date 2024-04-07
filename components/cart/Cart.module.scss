@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 32px;
+  align-self: center;
+}
+
+.emptyCart {
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #999;
+  margin: 0 25px;
+  align-self: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.cart {
+  border-top: 2px solid #999;
+  margin: 0 0 15px 0;
+
+  .cartItem {
+    border-bottom: 2px solid #ddd;
+  }
+}
+
+.total {
+  margin-right: 25px;
+  align-self: right;
+  font-size: 20px;
+  text-align: right;
+}

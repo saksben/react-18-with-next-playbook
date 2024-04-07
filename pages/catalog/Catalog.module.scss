@@ -1,0 +1,41 @@
+$header-font-size: 40px;
+$header-color: #555;
+$header-margin: 26px;
+
+.container {
+  display: flex;
+
+  .mainLeft {
+    flex-grow: 1;
+    margin: 0 10px 0 50px;
+
+    .header {
+      font-size: $header-font-size;
+      color: $header-color;
+      margin: $header-margin 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1400px;
+      border-top: 2px solid #999;
+    }
+  }
+
+  .rightSidebar {
+    min-width: 330px;
+    max-width: 330px;
+    margin: 0 50px 0 25px;
+
+    h2 {
+      font-size: $header-font-size;
+      color: $header-color;
+      margin: $header-margin 0;
+      text-align: center;
+    }
+  }
+}
